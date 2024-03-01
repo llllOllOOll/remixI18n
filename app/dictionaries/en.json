@@ -1,0 +1,46 @@
+{
+  "dashboard":{
+    "title": "Dashboard",
+    "greeting": "Hi!",
+    "menu": [
+  {
+    "label": "Home",
+    "icon": "home",
+    "route": "/"
+  },
+  {
+    "label": "Profile",
+    "icon": "user",
+    "route": "/profile"
+  },
+  {
+    "label": "Settings",
+    "icon": "settings",
+    "route": "/settings"
+  },
+  {
+    "label": "Help",
+    "icon": "help",
+    "route": "/help"
+  }
+    ],
+    "home":{
+      "title": "Home",
+      "description": "This is the home page"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Welcome to NextJs i18n",
+      "description": "Internationalization in NextJs 13 App router"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page"
+    }
+  }
+}

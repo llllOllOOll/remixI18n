@@ -1,0 +1,46 @@
+{
+  "dashboard": {
+    "title": "Painel", 
+    "greeting": "Olá!", 
+    "menu": [
+      {
+        "label": "Início", 
+        "icon": "home",
+        "route": "/"
+      },
+      {
+        "label": "Perfil", 
+        "icon": "user",
+        "route": "/profile"
+      },
+      {
+        "label": "Configurações",
+        "icon": "settings",
+        "route": "/settings"
+      },
+      {
+        "label": "Ajuda", 
+        "icon": "help",
+        "route": "/help"
+      }
+    ],
+    "home": {
+      "title": "Página inicial", 
+      "description": "Esta é a página inicial" 
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Welcome to NextJs i18n",
+      "description": "Internationalization in NextJs 13 App router"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page"
+    }
+  }
+}
