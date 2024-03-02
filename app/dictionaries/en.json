@@ -35,8 +35,8 @@
   },
   "page": {
     "home": {
-      "title": "Welcome to NextJs i18n",
-      "description": "Internationalization in NextJs 13 App router"
+      "title": "Welcome to RemixI18n",
+      "description": "Internationalization in RemixJS"
     },
     "about": {
       "title": "About Us",

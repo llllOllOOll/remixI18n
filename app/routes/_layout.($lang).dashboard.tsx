@@ -2,29 +2,6 @@ import { LoaderFunctionArgs, json } from "@remix-run/node";
 import { Outlet, useLoaderData } from "@remix-run/react";
 import { Locale, getDictionary } from "~/lib/dictionary";
 
-// const menu = [
-//   {
-//     label: "Home",
-//     icon: "home",
-//     route: "/",
-//   },
-//   {
-//     label: "Profile",
-//     icon: "user",
-//     route: "/profile",
-//   },
-//   {
-//     label: "Settings",
-//     icon: "settings",
-//     route: "/settings",
-//   },
-//   {
-//     label: "Help",
-//     icon: "help",
-//     route: "/help",
-//   },
-// ];
-
 export async function loader({params}:LoaderFunctionArgs){
  const {dashboard} = await getDictionary(params.lang as Locale)
  return json({dashboard}) 
